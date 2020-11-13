@@ -10206,11 +10206,14 @@ a.h1:hover {
   position: relative;
 }
 .m-hobbies-page .content-wrapper ul li:before {
+  background: #FCA311;
   border-radius: 50%;
-  height: 15px;
+  content: "";
+  height: 9px;
   position: absolute;
-  width: 15px;
+  width: 9px;
   left: 0;
+  top: 6px;
 }
 
 .m-hometown {
@@ -10485,6 +10488,10 @@ a.h1:hover {
 .m-work-page-video-content {
   margin-bottom: 85px;
 }
+.m-work-page hr {
+  background: #FFDDD2;
+  margin-bottom: 0;
+}
 .m-work-page .thumbnail {
   align-items: center;
   background: rgba(255, 255, 255, 0.95);
@@ -10597,7 +10604,7 @@ a.h1:hover {
 }
 .m-work-page-team-members .member-wrapper.kevin {
   left: -40px;
-  bottom: 0;
+  bottom: -10px;
 }
 .m-work-page-team-members .member-wrapper.kevin .fat-1, .m-work-page-team-members .member-wrapper.kevin .med-1,
 .m-work-page-team-members .member-wrapper.kevin .med-2 {
@@ -10691,7 +10698,7 @@ a.h1:hover {
 @media (min-width: 1440px) {
   .m-work-page-team-members .member-wrapper.xavier {
     right: 10px;
-    top: 170px;
+    top: 15.625rem;
   }
 }
 
