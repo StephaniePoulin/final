@@ -28,7 +28,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../systeme_de_gestion_de_contenu" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -41,11 +41,11 @@
       <recent name="$PROJECT_DIR$/plugins" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../systeme_de_gestion_de_contenu" />
+      <recent name="$USER_HOME$/Desktop" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/assets/js" />
-      <recent name="$PROJECT_DIR$/assets/scss" />
-      <recent name="$PROJECT_DIR$/assets/scss/plugins" />
-      <recent name="$PROJECT_DIR$/assets/scss/components" />
     </key>
   </component>
   <component name="RunManager">
@@ -61,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605051808173</updated>
-      <workItem from="1605051809480" duration="76225000" />
+      <workItem from="1605051809480" duration="76766000" />
     </task>
     <servers />
   </component>
