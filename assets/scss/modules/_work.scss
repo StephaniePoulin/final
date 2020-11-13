@@ -7,6 +7,11 @@
       margin-bottom: 85px;
     }
 
+    hr{
+      background: $misty-rose;
+      margin-bottom: 0;
+    }
+
     .thumbnail{
       align-items: center;
       background: rgba(255, 255, 255, 0.95);
@@ -125,7 +130,7 @@
 
           &.kevin{
             left: -40px;
-            bottom: 0;
+            bottom: -10px;
 
             .fat-1, .med-1,
             .med-2{
@@ -229,7 +234,7 @@
 
             @include media-breakpoint-up(xl){
               right: 10px;
-              top: 170px;
+              top: rem(250px);
             }
           }
         }
