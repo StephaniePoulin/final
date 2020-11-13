@@ -1,0 +1,43 @@
+/**
+Theme Name: Projet final Stéphanie Poulin
+Author: Stephanie Poulin
+Description: Travail final AEC Design et intégration web
+Version: 10.0.0
+Tags: bootstrap, custom
+*/
+
+//Modifié le 02/11/2020
+//Par Stéphanie Poulin
+
+// Bootstrap
+@import "bootstrap/bootstrap";
+
+//Components
+@import "components/base";
+@import "components/forms";
+@import "components/maps";
+@import "components/variables";
+
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+//Layouts
+@import "layouts/footer";
+@import "layouts/header";
+@import "layouts/navigation";
+@import "layouts/ui";
+
+//Mixins
+@import "components/mixins";
+
+//Modules
+@import "modules/goals";
+@import "modules/hobbies";
+@import "modules/hometown";
+@import "modules/projects";
+@import "modules/work";
+
+//Plugins
+@import "plugins/locomotive-scroll";
+@import "plugins/slick";
+@import "plugins/slick-theme";

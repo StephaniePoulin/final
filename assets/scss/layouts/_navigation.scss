@@ -1,0 +1,82 @@
+.l-navigation{
+  align-items: center;
+  background: #f1f1f1;
+  display: flex;
+  height: rem(58px);
+  justify-content: space-around;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999!important;
+
+  @include media-breakpoint-up(md){
+    height: rem(85px);
+  }
+
+  a{
+    color: $base-color-alt;
+    font-size: rem(10px);
+
+    @include media-breakpoint-up(lg){
+      font-size: rem(16px);
+    }
+
+    &:hover{
+      color: $base-color;
+    }
+  }
+
+  .email-wrapper{
+    margin-right: 20px;
+  }
+
+  .logo{
+    img{
+      height: rem(50px);
+      margin-top: rem(5px);
+      margin-bottom: rem(5px);
+      margin-left: 20px;
+    }
+  }
+
+  .nav-item, .nav-link{
+    a{
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    &.active{
+      color: $base-color;
+    }
+  }
+
+  ul.nav{
+    justify-content: center;
+    width: 100%;
+  }
+
+  &-side-nav{
+    .test{
+      background: #ffffff;
+      margin-left: -50px;
+      height: 50px;
+      width: 200px;
+
+      &.opened{
+        margin-left: initial;
+      }
+    }
+  }
+}
+
+
+
+
+
+//Mixins
+$base-font-size: 16px;
+@function rem($target, $context: $base-font-size) {
+  @return ($target / $context) * 1rem;
+}

@@ -1,0 +1,60 @@
+.m-goals{
+  &-page{
+    height: calc(100% + 10.624rem);
+    padding-top: 60px;
+
+    .editor{
+      @include media-breakpoint-down(sm){
+        padding-left: 41px;
+        padding-right: 41px;
+      }
+    }
+
+    .content-wrapper{
+      .glider{
+        .bloc-goals{
+          img{
+            height: 200px;
+            margin-bottom: 15px;
+            object-fit: cover;
+            width: 100%;
+          }
+
+          a.thumbnail{
+            content: '';
+            line-height: 200px;
+            //fuck you
+            min-height: 200px !important;
+            width: 100%;
+
+            //img{
+            //  &:hover{
+            //    box-shadow: rgba(131, 197, 190, 0.20) 5px 5px 9px;
+            //  }
+            //}
+
+            &:hover{
+              box-shadow: rgba(131, 197, 190, 0.20) 5px 5px 9px;
+            }
+          }
+
+          a{
+            p{
+              color: #cfcfcf;
+            }
+
+            &:hover{
+              h4{
+                color: $monte-carlo-blue;
+              }
+
+              p{
+                color: $misty-rose;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

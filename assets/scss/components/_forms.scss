@@ -1,0 +1,73 @@
+.c-form{
+  &-send-feedback{
+    @include media-breakpoint-down(sm){
+      padding-left: 41px;
+      padding-right: 41px;
+    }
+
+    label, p{
+      color: #cfcfcf;
+    }
+
+    input, textarea{
+      background: $chino-brown;
+      border: none;
+      margin-right: 15px;
+      max-width: calc(375px - 82px);
+      padding: 5px;
+
+      &#last-name, &#name{
+        width: 100%;
+        min-width: calc(100vw - 82px);
+
+        @include media-breakpoint-up(md){
+          min-width: 300px;
+        }
+      }
+
+      &#last-name{
+        @include media-breakpoint-down(sm){
+          margin-bottom: 15px;
+        }
+      }
+
+      &#submit{
+        background: $dark-tangerine;
+        font-weight: 700;
+        padding: 10px 20px;
+      }
+
+      &#website{
+        min-width: calc(100vw - 82px);
+        width: 100% !important;
+
+        @include media-breakpoint-up(md){
+          min-width: calc(355px + 18px);
+        }
+
+        @include media-breakpoint-up(xl){
+          min-width: calc(600px + 18px);
+        }
+      }
+
+      &::placeholder{
+        color: $base-color-alt;
+        font-weight: 700;
+        padding-left: 5px;
+      }
+    }
+
+    textarea{
+      width: 100%;
+      min-width: calc(100vw - 82px);
+
+      @include media-breakpoint-up(md){
+        min-width: calc(355px + 15px);
+      }
+
+      @include media-breakpoint-up(xl){
+        min-width: calc(600px + 18px);
+      }
+    }
+  }
+}

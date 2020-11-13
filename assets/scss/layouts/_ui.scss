@@ -1,0 +1,73 @@
+.l-ui {
+  &-container-fluid-padding {
+    @include media-breakpoint-between(xs, sm) {
+      padding-left: 5.333333333333333vw; /* 20/375 */
+      padding-right: 5.333333333333333vw; /* 20/375 */
+    }
+  }
+
+  &-negative-offset {
+    &-md {
+      &-left {
+        @include media-breakpoint-only(md) {
+          margin-left: -30px;
+        }
+      }
+
+      &-right {
+        @include media-breakpoint-only(md) {
+          margin-right: -30px;
+        }
+      }
+    }
+
+    &-lg {
+      &-left {
+        @include media-breakpoint-only(lg) {
+          margin-left: -30px;
+        }
+      }
+
+      &-right {
+        @include media-breakpoint-only(lg) {
+          margin-right: -30px;
+        }
+      }
+    }
+
+    &-xl {
+      &-left {
+        @include media-breakpoint-only(xl) {
+          margin-left: -30px;
+        }
+      }
+
+      &-right {
+        @include media-breakpoint-only(xl) {
+          margin-right: -30px;
+        }
+      }
+    }
+  }
+}
+
+.m-work, .m-hobbies,
+.m-goals, .m-projects,
+.m-hometown{
+  &-page, &-featured{
+    border-top: rem(58px) solid transparent;
+    padding-bottom: rem(85px);
+
+    @include media-breakpoint-up(md){
+      border-top: rem(85px) solid transparent;
+      padding-bottom: rem(85px);
+    }
+  }
+}
+
+.d-sm-only-none{
+  @include media-breakpoint-down(sm){
+    display: none;
+  }
+}
+
