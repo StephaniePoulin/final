@@ -45,6 +45,24 @@
           margin-right: 30px;
         }
       }
+
+      ul{
+        li{
+          padding-left: 20px;
+          position: relative;
+
+          &:before{
+            background: $dark-tangerine;
+            border-radius: 50%;
+            content: '';
+            height: 9px;
+            position: absolute;
+            width: 9px;
+            left: 0;
+            top: 6px;
+          }
+        }
+      }
     }
   }
 }

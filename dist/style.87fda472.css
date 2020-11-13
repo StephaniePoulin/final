@@ -10201,6 +10201,17 @@ a.h1:hover {
     margin-right: 30px;
   }
 }
+.m-hobbies-page .content-wrapper ul li {
+  padding-left: 20px;
+  position: relative;
+}
+.m-hobbies-page .content-wrapper ul li:before {
+  border-radius: 50%;
+  height: 15px;
+  position: absolute;
+  width: 15px;
+  left: 0;
+}
 
 .m-hometown {
   padding-left: 41px;
